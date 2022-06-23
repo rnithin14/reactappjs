@@ -1,4 +1,4 @@
-FROM node:latest
+FROM node:current-buster-slim
 RUN mkdir /app/
 WORKDIR app/
 COPY . /app/
